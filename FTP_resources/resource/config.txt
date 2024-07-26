@@ -1,0 +1,11 @@
+[global]
+Ipaddress= 127.0.0.1
+server_folder=do_not_touch
+client_folder=history_a
+client_image_folder=clientImage
+client_text_folder=clientText
+client_virus_folder=virus
+client_zip_folder=clientClean
+server_zip_folder=serverClean
+
+

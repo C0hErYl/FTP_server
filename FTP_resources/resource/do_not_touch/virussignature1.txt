@@ -1,0 +1,2 @@
+Any 2 letters followed by any combination of 6 whole numbers
+e.g. AA123456, AB456789 etc etc..

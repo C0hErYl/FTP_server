@@ -1,0 +1,345 @@
+user@host> show log messages Apr 11 10:27:25 router1 mgd[3606]: UI_DBASE_LOGIN_EVENT: User 'barbara' entering configuration mode
+Apr 11 10:32:22 router1 mgd[3606]: UI_DBASE_LOGOUT_EVENT: User 'barbara' exiting configuration mode
+Apr 11 11:36:15 router1 mgd[3606]: UI_COMMIT: User 'root' performed commit: no comment
+Apr 11 11:46:37 router1 mib2d[2905]: SNMP_TRAP_LINK_DOWN: ifIndex 82, ifAdminStatus up(1), ifOperStatus down(2), ifName at-1/0/0
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
+user@host> file show /var/log/processes Feb 22 08:58:24 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 22 20:35:07 router1 snmpd[359]:
+%DAEMON-6-SNMPD_THROTTLE_QUEUE_DRAINED: trap_throttle_timer_handler: cleared all throttled traps
+Feb 23 07:34:56 router1 snmpd[359]:
+%DAEMON-3-SNMPD_TRAP_WARM_START: trap_generate_warm: SNMP trap: warm start
+Feb 23 07:38:19 router1 snmpd[359]:
+%DAEMON-2-SNMPD_TRAP_COLD_START: trap_generate_cold: SNMP trap: cold start
