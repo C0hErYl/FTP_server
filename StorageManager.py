@@ -16,7 +16,7 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.primitives import hashes
 
 
-# PART E: Log activities#
+
 def log_activities():
     try:
         name = input("yourname for log file name:")
@@ -34,22 +34,8 @@ log_activities()
 
 
 
-# #(no using-lesson4)
-# from ftplib import FTP
-#
-# ftp = FTP()
-# ftp.connect("127.0.0.1", 21)
-# # ftp.login("user", "Password")
-# ftp.login(user='anonymous', passwd='')
-# ftp.cwd("/")
-# ftp.retrbinary("RETR" + "resource", open(r'C:\ITE_shunxiang\ITE apps\pythonProject\AdministrativeScripting_Project\FTPTest\filetest', "wb").write)
-# #
-# # shutil.unpack_archive("FTPTest/project_resource.zip", "project_resource")
 
 
-
-
-##working
 
 logging.info("\n\n\nPART A: Data from information store manipulated correctly according to script requirement.")
 logging.info("download files from ftp server")
@@ -121,30 +107,6 @@ ftp.quit()
 
 
 
-## #(no using)
-## # # creating StorageManagement and copying the files from the resource folder -#have not done the extract from ftp server
-## def download_files():
-##     try:
-##         # sourceFilePath = os.path.join(cwd, 'project_resource/resource')
-##         sourceFilePath = os.path.join(cwd, 'project_resource')
-##         destinationFilePath = os.path.join(cwd, 'StorageManagement')
-##         if not os.path.exists(destinationFilePath):
-##             subprocess.call([windows_cmd, f'/c mkdir "{destinationFilePath}"'])
-##         print("Before downloading files from ftp server => ", os.listdir())
-##         shutil.copytree(sourceFilePath, destinationFilePath)
-##
-##     except FileExistsError:
-##         print(f"Error: files Exists: {str(FileNotFoundError)}")
-##     else:
-##         # Code to execute if no exception occurs
-##         print("After downloading files from ftp server => ", os.listdir())
-##         # logging.info("Downloading files from FTP done.")
-##     finally:
-##         # Code to execute regardless of whether an exception occurs or not
-##         # This block is useful for cleanup operations
-##         # For example, close open files or connections
-##         pass
-## download_files()
 
 
 
@@ -159,12 +121,6 @@ def seperate_files():
         print(f'contents in {configfilepath} file:\n', file_contents)
     file_s = file_contents.split()
 
-# #split method cannot, so read data into dictionary(no using)
-#     # print(file_s[1:][1])
-#     # file_Location = {}
-#     # for c in file_s:
-#     #     file_Location[c.split()[0]] = c.split()[1:]
-#     #print(file_Location)
 
 
     with open(configfilepath, 'r') as configtxtfile:
@@ -342,22 +298,8 @@ archive_files()
 
 
 
-## no work pasowrd emcrpt(no using)
-##encrypt files using the filekey
-## password = input("Your password: ")
-## def key_from_password(password, salt=b'salt', iterations=100000):
-##     kdf = PBKDF2HMAC(
-##         algorithm=hashes.SHA256(),
-##         salt=salt,
-##         iterations=iterations,
-##     )
-##     key = Fernet.generate_key()
-##     return kdf.derive(password.encode()) + key
 
 
-
-
-###WORKING#(Using) #######$#$#$#$#$#$#$$working - - -
 
 
 logging.info("encrypt files using the filekey")
@@ -375,7 +317,6 @@ def encrypt_content(content, key):
 key_file_path = 'history_a/filekey.key'
 key = read_key_from_file(key_file_path)
 
-###cannot do this: client_zip_folder = list(value.keys())[6] method thing
 
 client_zip_folder = 'client_zip_folder'
 
@@ -418,8 +359,6 @@ for root, dirs, files in os.walk(client_zip_folder):
 
 
 
-###use name a password part
-## correct_password = "shunxiang"
 correct_password = input("set your name as the password: ")
 logging.info(f"Password {correct_password} set to protect the files content")
 
@@ -427,111 +366,6 @@ logging.info(f"Password {correct_password} set to protect the files content")
 
 
 
-
-# entered_password = input("Enter the password(yourName) to decrypt files content: ")
-#
-#
-# if entered_password == correct_password:
-#     print("Password is correct. Code can continue running.")
-#     logging.info(f"Password {correct_password} is correct. Code can continue running.")
-#     # Your code here
-# else:
-#     print("Incorrect password. Exiting the program.")
-
-
-
-#
-# #**** - - [UN-HAsh for decrypt of files]
-#
-# logging.info("decrypt files using the filekey")
-# ##decrypt files
-# def read_key_from_file(file_path):
-#     with open(file_path, 'rb') as file:
-#         key = file.read()
-#     return key
-#
-# def decrypt_content(encrypted_content, key):
-#     fernet = Fernet(key)
-#     decrypted_content = fernet.decrypt(encrypted_content)
-#     return decrypted_content
-# # Read the key from the filekey.key file
-# key_file_path = 'history_a/filekey.key'
-# key = read_key_from_file(key_file_path)
-#
-#
-#
-# client_zip_folder = 'client_zip_folder'
-#
-# # Loop through each zip file in the client_zip_folder
-# for root, dirs, files in os.walk(client_zip_folder):
-#     for file in files:
-#         if file.endswith('.zip'):
-#             zip_filepath = os.path.join(root, file)
-#
-#             # Create a new in-memory zip file
-#             new_zip_data = io.BytesIO()
-#
-#             # Create a new zip file for writing
-#             with zipfile.ZipFile(new_zip_data, 'a') as new_zip_file:
-#                 # Open the existing zip file
-#                 with zipfile.ZipFile(zip_filepath, 'r') as zip_file:
-#                     for zip_info in zip_file.infolist():
-#                         # Check if the file is an encrypted file and if its encrypted read it
-#                         if zip_info.filename.startswith('encrypted_'):
-#                             encrypted_content = zip_file.read(zip_info.filename)
-#
-#                             # Decrypt the content of the file
-#                             decrypted_content = decrypt_content(encrypted_content, key)
-#
-#                             # Remove the 'encrypted_' from the decrypted file
-#                             original_filename = zip_info.filename[len('encrypted_'):]               #diff from the encrypted part
-#
-#                             # Add the decrypted content to the new zip file
-#                             new_zip_file.writestr(original_filename, decrypted_content)             #diff from the encrypted part
-#                         else:
-#                             # Add non-encrypted files directly to the new zip file
-#                             new_zip_file.writestr(zip_info, zip_file.read(zip_info.filename))
-#
-#             # Save the new zip file with decrypred content back to the original zip file location
-#             with open(zip_filepath, 'wb') as updated_zip_file:
-#                 updated_zip_file.write(new_zip_data.getvalue())
-#
-#             print(f"Decrypted files in {zip_filepath}")
-#             logging.info(f"Decrypted files in {zip_filepath}")
-#
-
-
-
-
-
-## #not working(no using)
-## # #lock files with password
-##
-## import os
-## import pyzipper
-##
-## def set_password_for_zip(zip_filepath, password):
-##     try:
-##         with pyzipper.AESZipFile(zip_filepath, 'a', compression=pyzipper.ZIP_LZMA, encryption=pyzipper.WZ_AES) as zip_file:
-##             for file_info in zip_file.infolist():
-##                 zip_file.setpassword(password)
-##             print(f"Password set for {zip_filepath}")
-##     except Exception as e:
-##         print(f"Error setting password for {zip_filepath}: {e}")
-##
-## def automate_zip_password_lock(directory, password):
-##     zip_files = [f for f in os.listdir(directory) if f.endswith('.zip')]
-##
-##     for zip_file in zip_files:
-##         zip_filepath = os.path.join(directory, zip_file)
-##         set_password_for_zip(zip_filepath, password)
-##
-## zip_directory = 'client_zip_folder'
-##
-##
-## password = b"shunxiang"
-##
-## automate_zip_password_lock(zip_directory, password)
 
 
 
@@ -612,7 +446,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-#
+
 # # ##task scheduler
 # os.system("start taskschd.msc")
 # # Program_pycharmPath = r"C:\Users\Desktop\PyCharm Community Edition 2022.2.4.lnk"
