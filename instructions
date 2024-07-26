@@ -1,0 +1,16 @@
+Scenario:
+A cloud hosting company providing file storage services for user to upload and download files had contacted you to develop a script to automate maintenance tasks. The maintenance tasks include the following:
+
+1: Download all files from the ftp or equivalent server to local system.
+2: Separate images and text related files into two different folders, one for image and one for text.
+3: Identify files containing virus pattern and move the files into a separate folder.
+
+4: Archive the files in the text and image folder according to type and creation date.
+
+5: Ping the health of FTP server and upload the zip files into the ftp server if FTP is healthy.
+6: Create a log file to record completion of task 1 to task 6. 
+
+
+needs:
+working FTP server
+3 files provides under ftp_server
